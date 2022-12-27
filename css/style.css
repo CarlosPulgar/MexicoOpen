@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 200px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav li{
+    margin-right: 2rem;
+    list-style: none;
+}
+.nav li:hover{
+    scale: 1.2;
+}
+.nav li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.nav li a:hover{
+    color: #757575;
+   
+}
+.nav i{
+    display: none;
+}
+
+.boton-nav{
+    width: 8rem;
+    height: 3rem;
+    background: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #f3f3f3;
+    border: none;
+    margin-right: 7rem;
+}
+
+.portada{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+}
+
+.imagen{
+    width: 43.75rem;
+    height: 37.5rem;
+    background-image: url(../imagenes/padel-intro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bienvenida{
+    width: 43.75rem;
+    height: 37.5rem;
+    padding-top: 4rem;
+   
+}
+
+.title{
+    width: 29rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114.6%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.035em;
+    color: #232C50;
+}
+
+.texto-title{
+    
+    width: 29rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+    margin: 2rem 0;
+    opacity: 0%;
+}
+
+.boton-caja{
+    width: 29rem;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0%;
+}
+
+.boton-title{ 
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    border-radius: 50px;
+    border: none;
+    color: #f3f3f3;
+}
+
+.banner{
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    background-color: #8B48BF;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.banner-title{
+    width: 29rem;
+    height: 88px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.banner-texto{
+    width: 29rem;
+    height: 88px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.1%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.texto-notas::first-letter{
+    font-size: 25px;
+    color: #000000;
+}
+.notas{
+    width: 100vw;
+    height: 30rem;
+    margin: 5rem 0;
+    
+}
+.especial{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    width: 100vw;
+    height: 200px;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+
+.caja-notas{
+    width: 29rem;
+    height: 8rem;
+}
+
+.numero{
+   
+    width: 70px;
+    height: 43px;
+    background: #8B48BF;
+    border-radius: 30px;
+    margin-right: 1.3rem;
+    border: none;
+    color: #f3f3f3;
+}
+
+.texto-notas{
+    padding-left: 6rem;
+    margin-top: 1rem;
+}
+
+.caja-bottom{
+    display: flex;
+    justify-content: center;
+    margin:5rem 0;
+}
+
+.best{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.title-best{
+    color: #242E53;
+    font-size: 40px;
+}
+
+.box-best{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-best{
+    width: 29rem;
+    height: 15rem;
+    margin: 4rem 0;
+}
+
+.img-card{
+    margin-bottom: 2rem;
+    scale: 1.3;
+}
+
+.title-card{
+    margin-bottom: 1rem;
+   
+}
+
+.texto-card{
+    color: #B9B9C1;
+    line-height: 1.5rem;
+}
+.texto-card:hover{
+    color: #030303;
+}
+
+.btn-card{
+    width: 134px;
+    height: 44px;
+    background: rgba(139, 72, 191, 0.7);
+    border-radius: 50px;
+    border:none;
+    color: #f3f3f3;
+}
+
+.banner2{    
+    width: 100vw;
+    height: 15rem;
+    background: #8B48BF;
+}
+
+.box-banner2{
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-banner2{
+    width: 29rem;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    color: #f3f3f3;
+}
+
+.btn-go{
+    width: 134px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border:none;
+    color: #8B48BF;
+}
+
+.foot{
+    width: 100vw;
+    height:15rem;
+    background-color: #1E1E26;
+}
+
+.box-foot{
+    width: 100vw;
+    height:15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10rem;
+    height: 12rem;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.iconos a{
+    color: #f3f3f3;
+}
+
+.list-foot{
+    line-height: 2.5rem;
+    
+}
+
+.list-foot a,.list-foot2 a, .list-foot ul li, .list-foot2 ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #f3f3f3;
+}
+
+.list-foot2{
+    line-height: 2.5rem;
+    height: 10rem;
+    
+}
+
+.inpt-mail{
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+}
+.btn-foot{
+    width: 63px;
+    height: 42px;
+    background: #8B48BF;
+    border-radius: 50px;
+    border: none;
+    color: #f3f3f3;
+}
+
+.texto-foot{
+    color: #8C8C94;
+    font-size: 12px;
+    text-align: end;
+}
+
+.boton-nav:hover,.boton-title:hover, .btn-card:hover{
+    scale: 1.2;
+    background: linear-gradient(to right, rgba(16, 16, 17, 0.921),rgb(213, 27, 222));
+}
+
+.btn-go:hover{
+    scale: 1.2;
+    background: linear-gradient(to right, rgba(239, 239, 244, 0.921),rgb(232, 165, 236));
+    color: #030303;
+}
+
+.btn-foot:hover{
+    scale: 1.1;
+    color: #030303;
+}
+
+/* ANIMATION */
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+ .texto-title.slide-left{
+    animation-delay: 1s;
+ }
+
+ .boton-caja.slide-left{
+    animation-delay: 2s;
+ }
+
+/* RESPONSIVE */
+
+@media (max-width: 480px){
+    header{
+        justify-content: space-around;       
+    }
+
+.nav li{
+    display: none;
+}
+
+.nav i{
+    display: block;
+    scale: 3;
+}
+.boton-nav{
+    display: none;
+}
+
+.imagen{
+    width: 100%;
+    height: 20rem;
+    margin: 1rem;
+    background-size: contain;
+}
+
+.bienvenida{
+    width: 360px;
+    height: auto;
+    padding: .8rem;
+}
+
+.title{
+    width: auto;
+}
+
+.texto-title{
+    width: auto;
+}
+
+.boton-caja{
+    width: auto;
+}
+
+.banner{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    background-color: #3CDDF3;
+    padding: 1rem;
+}
+
+.banner-title{
+    margin-bottom: 2rem;
+}
+.notas{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.especial{
+    width: auto;
+    height: 450px;
+    
+}
+
+.title-notas{
+    font-size: 14px;
+    background: rgba(139, 72, 191, 0.3);
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.texto-notas{
+    font-size: 13px;
+}
+
+.caja-bottom{
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+}
+
+.title-best{
+    font-size: 30px;
+}
+
+.card1{
+    display: none;
+}
+
+.texto-card{
+    font-size: 13px;
+    text-align: center;
+    padding: .3rem;
+}
+
+.card3{
+    display: none;
+}
+
+.btn-card{
+    background-color: #8B48BF;
+}
+
+.banner2{
+    background-color: #3CDDF3;
+    height: 20rem;
+    padding: .5rem
+}
+
+.box-banner2{
+    flex-direction: column;
+    height: auto;
+}
+
+.title-banner2{
+    font-size: 40px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: .05rem;
+    margin-bottom: 2rem;
+}
+
+.btn-go{
+    background: #232C50;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #f3f3f3;
+    
+}
+
+.btn-go:hover{
+    scale: 1.2;
+    background: linear-gradient(to right, rgba(45, 156, 215, 0.921),rgb(54, 49, 188));
+    color: #ffffff;
+}
+.foot{
+    width: 100%;
+    height: 30rem;
+   position: relative;
+}
+
+.input-foot{
+    position: absolute;
+    left: 5%;
+    width: 350px;
+   
+}
+.inpt-mail{
+    width: 230px;
+}
+
+.list-foot{
+    position: absolute;
+    left: 20%;
+    top:130px;
+}
+
+.list-foot2{
+    position: absolute;
+    top: 130px;
+    left: 60%;
+}
+
+.iconos{
+    position: absolute;
+    left: 0;
+    bottom: 140px;
+    width: 350px;
+    justify-content: space-evenly;
+}
+
+.icon-close{
+    position: absolute;
+    left: 35%;
+    bottom: 70px;
+}
+
+.texto-foot{
+    position: absolute;
+    width: 250px;
+    left: 10%;
+    bottom: -280px;
+}
+}
